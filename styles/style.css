@@ -1,0 +1,120 @@
+/* general work */
+
+*{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+/* common work */
+
+.btn-normal{
+    background-color: orangered;
+    color: white;
+    border: 0;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/* header/banner work */
+
+.header-container{
+    
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    min-height: 80vh;
+
+    /* align-items: center; */
+}
+.header{
+    text-align: right;
+    padding: 150px 50px 150px 900px;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+
+}
+.header-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+
+/* failure part Work */
+.failure-container{
+    text-align: center;
+    padding: 130px ;
+
+}
+.failure{
+    display: flex;
+    gap: 60px;
+}
+.failure-info{
+    
+    text-align: left;
+    padding: 50px 120px;
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 50px; 
+    color: #151414;
+    margin-top: 130px;
+    margin-bottom: 40px;   
+}
+.failure-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 20px;
+
+}
+.point{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    
+}
+
+.pointing{
+    margin-bottom: 10px;
+
+}
+
+
+/* plan work */
+.plan-container{
+    text-align: center;
+}
+.plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    
+}
+.plans{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.plan-des{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
